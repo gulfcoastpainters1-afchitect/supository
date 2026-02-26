@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# API keys - never commit these
+sk-*
+*-api-key*
+*_api_key*
+*secret*.json
+*secret*.env
+*secret*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
