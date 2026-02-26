@@ -32,4 +32,6 @@ python nottingham_runtime.py
 
 ## Security Note
 
-**Never commit API keys or secrets in filenames or file contents.** Use environment variables or a secrets manager instead. See `.gitignore` for patterns that help prevent accidental commits of sensitive files.
+An OpenAI API key was accidentally included in a filename in an earlier commit. That key has since been **revoked** and the file has been renamed to `api_configuration.docx`. No action is needed.
+
+To avoid this in future, never put API keys or secrets in filenames or file contents. Use environment variables or a secrets manager instead. The `.gitignore` in this repo includes patterns (e.g. `sk-*`) to help block accidental commits of credential files.
